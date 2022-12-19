@@ -1,0 +1,11 @@
+Model Information:
+* title:	Alpha wolf
+* source:	https://sketchfab.com/3d-models/alpha-wolf-eabfb1220f3d4c4c88f3216bcf3d3bd0
+* author:	PrinceAli (https://sketchfab.com/PrinceAli)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Alpha wolf" (https://sketchfab.com/3d-models/alpha-wolf-eabfb1220f3d4c4c88f3216bcf3d3bd0) by PrinceAli (https://sketchfab.com/PrinceAli) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

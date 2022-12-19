@@ -1,0 +1,317 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 9388,
+      "max": [
+        11.91400146484375,
+        32.00642395019531,
+        6.926987171173096
+      ],
+      "min": [
+        -14.540114402770996,
+        -28.597522735595703,
+        -9.900070190429688
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 112656,
+      "componentType": 5126,
+      "count": 9388,
+      "max": [
+        0.9993369579315186,
+        0.9996856451034546,
+        1.0
+      ],
+      "min": [
+        -0.9993369579315186,
+        -0.9998140335083008,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 9388,
+      "max": [
+        0.9999980926513672,
+        0.9997803568840027,
+        0.9974336624145508,
+        1.0
+      ],
+      "min": [
+        -0.9999980926513672,
+        -0.9999962449073792,
+        -0.9972624182701111,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 9388,
+      "max": [
+        0.9981256723403931,
+        0.9989561438560486
+      ],
+      "min": [
+        0.0019459687173366547,
+        0.000582975335419178
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 75104,
+      "componentType": 5126,
+      "count": 9388,
+      "max": [
+        0.9981256723403931,
+        0.9989561438560486
+      ],
+      "min": [
+        0.0019459687173366547,
+        0.000582975335419178
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 150208,
+      "componentType": 5126,
+      "count": 9388,
+      "max": [
+        0.9981256723403931,
+        0.9989561438560486
+      ],
+      "min": [
+        0.0019459687173366547,
+        0.000582975335419178
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 37962,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Sebastian Webster (https://sketchfab.com/Sebastian.Hamish.Webster)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/cherax-destructor-yabby-free-gameready-258e5143f2a640f9be81ea08865e57f8",
+      "title": "Cherax Destructor (Yabby) Free + GameReady!"
+    },
+    "generator": "Sketchfab-12.66.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 151848,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 225312,
+      "byteOffset": 151848,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 225312,
+      "byteOffset": 377160,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 150208,
+      "byteOffset": 602472,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 752680,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Material_baseColor.png"
+    },
+    {
+      "uri": "textures/Material_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Material_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Material",
+      "normalTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.4294549714094438,
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Body_flippednorm_Retopo_LP_Material_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4,
+            "TEXCOORD_2": 5
+          },
+          "indices": 6,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.9999982714653015,
+        -1.6039929891485253e-16,
+        -0.0018598217284306884,
+        0.0,
+        -0.0018598217284306884,
+        2.2204422111322706e-16,
+        -0.9999982714653015,
+        0.0,
+        1.608119843630871e-16,
+        1.0,
+        2.2174552278191416e-16,
+        0.0,
+        0.0058166515082120895,
+        -2.4706139356567175e-07,
+        -5.211708412389271e-06,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "YabbyPublish.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        0.37192434072494507,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -6.059416627326704e-08,
+        -0.37192434072494013,
+        0.0,
+        0.0,
+        0.37192434072494013,
+        -6.059416627326704e-08,
+        0.0,
+        0.4883577227592468,
+        2.093505859375,
+        -2.493607997894287,
+        1.0
+      ],
+      "name": "Body_flippednorm_Retopo_LP"
+    },
+    {
+      "mesh": 0,
+      "name": "Body_flippednorm_Retopo_LP_Material_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

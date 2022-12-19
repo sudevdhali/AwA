@@ -1,0 +1,129 @@
+<!doctype HTML>
+<html>
+
+<head>
+	<title>AwA</title>
+	<script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+	<script src="https://raw.githack.com/jeromeetienne/AR.js/master/aframe/build/aframe-ar.min.js"></script>
+	<script src="https://raw.githack.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+</head>
+
+<body>
+	<a-scene embedded arjs="detectionMode: mono_and_matrix; matrixCodeType: 3x3;">
+
+		<a-assets>
+			<a-asset-item id="as" src="./alphabet/a/scene.gltf"></a-asset-item>
+			<a-asset-item id="bs" src="./alphabet/b/scene.gltf"></a-asset-item>
+			<a-asset-item id="cs" src="./alphabet/c/scene.gltf"></a-asset-item>
+			<a-asset-item id="ces" src="./alphabet/ce/scene.gltf"></a-asset-item>
+			<a-asset-item id="es" src="./alphabet/e/scene.gltf"></a-asset-item>
+			<a-asset-item id="fs" src="./alphabet/f/scene.gltf"></a-asset-item>
+			<a-asset-item id="gs" src="./alphabet/g/scene.gltf"></a-asset-item>
+			<a-asset-item id="hs" src="./alphabet/h/scene.gltf"></a-asset-item>
+			<a-asset-item id="is" src="./alphabet/i/scene.gltf"></a-asset-item>
+			<a-asset-item id="js" src="./alphabet/j/scene.gltf"></a-asset-item>
+			<a-asset-item id="ks" src="./alphabet/k/scene.gltf"></a-asset-item>
+			<a-asset-item id="ls" src="./alphabet/l/scene.gltf"></a-asset-item>
+			<a-asset-item id="ms" src="./alphabet/m/scene.gltf"></a-asset-item>
+			<a-asset-item id="ns" src="./alphabet/n/scene.gltf"></a-asset-item>
+			<a-asset-item id="os" src="./alphabet/o/scene.gltf"></a-asset-item>
+			<a-asset-item id="ps" src="./alphabet/p/scene.gltf"></a-asset-item>
+			<a-asset-item id="qs" src="./alphabet/q/scene.gltf"></a-asset-item>
+			<a-asset-item id="rs" src="./alphabet/r/scene.gltf"></a-asset-item>
+			<a-asset-item id="ss" src="./alphabet/s/scene.gltf"></a-asset-item>
+			<a-asset-item id="ts" src="./alphabet/t/scene.gltf"></a-asset-item>
+			<a-asset-item id="us" src="./alphabet/u/scene.gltf"></a-asset-item>
+			<a-asset-item id="vs" src="./alphabet/v/scene.gltf"></a-asset-item>
+			<a-asset-item id="ws" src="./alphabet/w/scene1.gltf"></a-asset-item>
+			<a-asset-item id="xs" src="./alphabet/x/scene.gltf"></a-asset-item>
+			<a-asset-item id="ys" src="./alphabet/y/scene.gltf"></a-asset-item>
+			<a-asset-item id="zs" src="./alphabet/z/scene.gltf"></a-asset-item>
+			
+		</a-assets>
+
+		<a-marker type='barcode' value='0'>
+			<a-entity position="0 0 0" scale="0.1 0.1 0.1" rotation="180 0 0" animation-mixer gltf-model="#as"></a-entity>
+		</a-marker>
+		<a-marker type='barcode' value='1'>
+			<a-entity position="0 0 0" scale="1.1 1.1 1.1" rotation="0 -90 0" animation-mixer gltf-model="#bs"></a-entity>
+		</a-marker>
+		<a-marker type='barcode' value='2'>
+			<a-entity position="0 0 0" scale="0.7 0.7 0.7" rotation="0 0 0" animation-mixer gltf-model="#cs"></a-entity>
+		</a-marker>
+		<a-marker type='barcode' value='3'>
+			<a-entity position="0 0 0" scale="3 3 3" rotation="0 0 0" animation-mixer gltf-model="#ces"></a-entity>
+		</a-marker>
+		<a-marker type='barcode' value='4'>
+			<a-entity position="0 0 0" scale="1 1 1" rotation="0 -90 0" animation-mixer gltf-model="#es"></a-entity>
+		</a-marker>
+		<a-marker type='barcode' value='5'>
+			<a-entity position="0 0 0" scale="3 3 3" rotation="0 0 0" animation-mixer gltf-model="#fs"></a-entity>
+		</a-marker>
+		<a-marker type='barcode' value='6'>
+			<a-entity position="0 0 0" scale="1 1 1" rotation="0 0 0" animation-mixer gltf-model="#gs"></a-entity>
+		</a-marker>
+		<a-marker type='barcode' value='7'>
+			<a-entity position="0 0 0" scale="0.7 0.7 0.7" rotation="0 0 0" animation-mixer gltf-model="#hs"></a-entity>
+		</a-marker>
+		<a-marker type='barcode' value='8'>
+			<a-entity position="0 0 0" scale="0.0051 0.0051 0.0051" rotation="0 0 0" animation-mixer gltf-model="#is"></a-entity>
+		</a-marker>
+		<a-marker type='barcode' value='29'>
+			<a-entity position="0 0 0" scale="0.1 0.1 0.1" rotation="0 0 0" animation-mixer gltf-model="#js"></a-entity>
+		</a-marker>
+		<a-marker type='barcode' value='10'>
+			<a-entity position="0 0 0" scale="0.3 0.3 0.3" rotation="0 0 0" animation-mixer gltf-model="#ks"></a-entity>
+		</a-marker>
+		<a-marker type='barcode' value='11'>
+			<a-entity position="0 0 0" scale="1.5 1.5 1.5" rotation="0 0 0" animation-mixer gltf-model="#ls"></a-entity>
+		</a-marker>
+		<a-marker type='barcode' value='12'>
+			<a-entity position="0 0 0" scale="0.017 0.017 0.017" rotation="0 0 0" animation-mixer gltf-model="#ms"></a-entity>
+		</a-marker>
+		<a-marker type='barcode' value='13'>
+			<a-entity position="0 0 0" scale="0.025 0.025 0.025" rotation="0 0 0" animation-mixer gltf-model="#ns"></a-entity>
+		</a-marker>
+		<a-marker type='barcode' value='28'>
+			<a-entity position="0 0 0" scale="2 2 2" rotation="0 -90 0" animation-mixer gltf-model="#os"></a-entity>
+		</a-marker>
+		<a-marker type='barcode' value='15'>
+			<a-entity position="0 0 0" scale="5 5 5" rotation="0 0 0" animation-mixer gltf-model="#ps"></a-entity>
+		</a-marker>
+		<a-marker type='barcode' value='16'>
+			<a-entity position="0 0 0" scale="2 2 2" rotation="0 -90 0" animation-mixer gltf-model="#qs"></a-entity>
+		</a-marker>
+		<a-marker type='barcode' value='17'>
+			<a-entity position="0 0 0" scale="0.08 0.08 0.08" rotation="0 0 0" animation-mixer gltf-model="#rs"></a-entity>
+		</a-marker>
+		<a-marker type='barcode' value='18'>
+			<a-entity position="0 0 0" scale="1.5 1 1" rotation="0 0 0" animation-mixer gltf-model="#ss"></a-entity>
+		</a-marker>
+		<a-marker type='barcode' value='19'>
+			<a-entity position="0 0 0" scale="2.3 2.3 2.3" rotation="0 0 0" animation-mixer gltf-model="#ts"></a-entity>
+		</a-marker>
+		<a-marker type='barcode' value='20'>
+			<a-entity position="0 0 0" scale="0.03 0.03 0.03" rotation="0 0 0" animation-mixer gltf-model="#us"></a-entity>
+		</a-marker>
+		<a-marker type='barcode' value='21'>
+			<a-entity position="0 0 0" scale="7 7 7" rotation="0 0 0" animation-mixer gltf-model="#vs"></a-entity>
+		</a-marker>
+		<a-marker type='barcode' value='22'>
+			<a-entity position="0 0 0" scale="1 1 1" rotation="0 0 0" animation-mixer gltf-model="#ws"></a-entity>
+		</a-marker>
+		<a-marker type='barcode' value='23'>
+			<a-entity position="0 0 0" scale="0.5 0.5 0.5" rotation="0 0 0" animation-mixer gltf-model="#xs"></a-entity>
+		</a-marker>
+		<a-marker type='barcode' value='24'>
+			<a-entity position="0 0 0" scale="0.08 0.07 0.07" rotation="0 0 0" animation-mixer gltf-model="#ys"></a-entity>
+		</a-marker>
+		<a-marker type='barcode' value='25'>
+			<a-entity position="0 0 0" scale="1 1 1" rotation="0 0 0" animation-mixer gltf-model="#zs"></a-entity>
+		</a-marker>
+
+
+	    <!-- add a simple camera -->
+	    <a-entity camera></a-entity>
+	</a-scene>
+</body>
+
+</html>

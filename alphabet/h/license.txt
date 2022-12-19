@@ -1,0 +1,11 @@
+Model Information:
+* title:	Horse (Non-Commercial)
+* source:	https://sketchfab.com/3d-models/horse-non-commercial-d8fc2008026b4970964320c38a251217
+* author:	Nyilonelycompany (https://sketchfab.com/Nyilonelycompany)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Horse (Non-Commercial)" (https://sketchfab.com/3d-models/horse-non-commercial-d8fc2008026b4970964320c38a251217) by Nyilonelycompany (https://sketchfab.com/Nyilonelycompany) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

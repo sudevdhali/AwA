@@ -1,0 +1,11 @@
+Model Information:
+* title:	Quail, low poly
+* source:	https://sketchfab.com/3d-models/quail-low-poly-187283b934b34180b46c6e8f9f6d39c4
+* author:	scbenoit (https://sketchfab.com/scbenoit)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Quail, low poly" (https://sketchfab.com/3d-models/quail-low-poly-187283b934b34180b46c6e8f9f6d39c4) by scbenoit (https://sketchfab.com/scbenoit) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
